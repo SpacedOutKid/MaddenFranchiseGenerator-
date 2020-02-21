@@ -142,4 +142,4 @@ if showFranchiseHistory == 'no':
         print(f"""
         The team to relocate will be {teamToRelocate} & they will relocate to {relocationCity}. 
         Their team name choice is option {newTeamName} their uniform option is option {newTeamUniform}, 
-        their new stadium will be a {newStadiumType} types and option {newStadiumChoice}""")
+        their new stadium will be a {newStadiumType} type and option {newStadiumChoice}""")
