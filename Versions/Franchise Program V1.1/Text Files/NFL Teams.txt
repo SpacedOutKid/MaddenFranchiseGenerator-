@@ -1,0 +1,9 @@
+NFL Teams:
+	Toronto Thunderbirds, Salt Lake City Elks, Houston Texans,
+    Denver Broncos, Las Vegas Raiders, San Diego Chargers, Cleveland Browns,
+    Cincinnati Bengals, Baltimore Ravens, San Antonio Elks,
+    New England Patriots, Buffalo Bills, Miami Dolphins, New York Jets,
+    Los Angeles Rams, San Fransisco 49ers, Sacramento Condors, Seatle Seahawks
+    Atlanta Falcons, Carolina Panthers, New Orleans Saints, Tampa Bay Buccaneers, Dallas Cowboys,
+    London Black Knights, Washington Redskins, Philadelphia Eagles, Green Bay Packers,
+    Detroit Lions, Chicago Bears, Minnesota Vikins, Kansas City Chiefs 
