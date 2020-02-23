@@ -5,14 +5,15 @@ showFranchiseHistory = input(f'Would you like to display the franchise history e
 if showFranchiseHistory == 'yes':
     #A list of all the National Football League Teams 
     nflTeams = """
-    Indianapolis Colts, Jacksonville Jaguars, Houston Texans,
+    
+    , Salt Lake City Elks, Houston Texans,
     Denver Broncos, Las Vegas Raiders, San Diego Chargers, Cleveland Browns,
-    Cincinnati Bengals, Baltimore Ravens, Pittsburgh Steelers,
+    Cincinnati Bengals, Baltimore Ravens, San Antonio Elks,
     New England Patriots, Buffalo Bills, Miami Dolphins, New York Jets,
     Los Angeles Rams, San Fransisco 49ers, Sacramento Condors, Seatle Seahawks
     Atlanta Falcons, Carolina Panthers, New Orleans Saints, Tampa Bay Buccaneers, Dallas Cowboys,
-    New York Giants, Washington Redskins, Philadelphia Eagles, Green Bay Packers,
-    Detroit Lions, Chicago Bears, Minnesota Vikins, Kansas City Chiefs"""
+    London Black Knights, Washington Redskins, Philadelphia Eagles, Green Bay Packers,
+    Detroit Lions, Chicago Bears, Minnesota Vikins, Kansas City Chiefs 
 
     #A list of the teams in the American Football Conference 
     afcConference = """
