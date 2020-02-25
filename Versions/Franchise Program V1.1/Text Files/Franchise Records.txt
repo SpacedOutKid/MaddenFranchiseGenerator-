@@ -1,0 +1,11 @@
+ recordsSet:
+              2020 Amari Cooper (WR) - (Colts) - Receiving Yards in a Game ~ 351
+              2020 Amari Cooper (WR) - (Colts) - Receiving Yards in a Season ~ 2439
+              2020 Jalen Reagor (WR) - (Condors) - Receiving TDs in a Season ~ 29
+              2021 Joe Burrow (QB) - (Colts) - Passing Yards in a Game ~ 657  
+              2021 Joe Burrow (QB) - (Colts) - Passing Touchdowns in a Game ~ 9
+              2021 T.Y Hilton (WR) - (Colts) - Receiving Yards in a Game ~ 437
+              2021 T.Y Hilton (WR) - (Colts) - Receiving TDs in a Game ~ 7
+              2021 Joe Burrow (QB) - (Colts) - Passing Yards in a Season ~ 5601
+              2021 Joe Burrow (QB) - (Colts) - Passing TDs in a Season ~ 57
+              2021 Amari Cooper (WR) - (Colts) - Receiving TDs in a Season ~ 29

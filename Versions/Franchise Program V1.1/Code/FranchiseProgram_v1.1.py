@@ -4,71 +4,38 @@ import random
 showFranchiseHistory = input(f'Would you like to display the franchise history enter yes or no: ')
 if showFranchiseHistory == 'yes':
     #A list of all the National Football League Teams 
-    nflTeams = """
-    
-    , Salt Lake City Elks, Houston Texans,
-    Denver Broncos, Las Vegas Raiders, San Diego Chargers, Cleveland Browns,
-    Cincinnati Bengals, Baltimore Ravens, San Antonio Elks,
-    New England Patriots, Buffalo Bills, Miami Dolphins, New York Jets,
-    Los Angeles Rams, San Fransisco 49ers, Sacramento Condors, Seatle Seahawks
-    Atlanta Falcons, Carolina Panthers, New Orleans Saints, Tampa Bay Buccaneers, Dallas Cowboys,
-    London Black Knights, Washington Redskins, Philadelphia Eagles, Green Bay Packers,
-    Detroit Lions, Chicago Bears, Minnesota Vikins, Kansas City Chiefs 
+    nflTeamsFile = ('NFL Teams.txt')
+
+    nflTeams = []
 
     #A list of the teams in the American Football Conference 
-    afcConference = """
-    Indianapolis Colts, Tennessee Titans, Jacksonville Jaguars, Houston Texans,
-    Denver Broncos, Las Vegas Raiders, San Diego Chargers, Cleveland Browns,
-    Cincinnati Bengals, Baltimore Ravens , Pittsburgh Steelers, Kansas City Chiefs
-    New England Patriots, Buffalo Bills, Miami Dolphins, New York Jets"""
+    afcConference = []
     #A list of the teams in the National Football Conference 
-    nfcConference = """
-    Los Angeles Rams, San Fransisco 49ers,  Sacramento Condors, Seatle Seahawks
-    Atlanta Falcons, Carolina Panthers, New Orleans Saints, Tampa Bay Buccaneers, Dallas Cowboys,
-    New York Giants, Washington Redskins, Philadelphia Eagles, Green Bay Packers,
-    Detroit Lions, Chicago Bears, Minnesota Vikins"""
+    nfcConference = []
 
-    #A list for the NFL teams seperated by divisions 
-    afcSouth ="""
-    Indianapolis Colts, Tennessee Titans ,Jacksonville Jaguars, Houston Texans"""
+    #A list for the NFL teams seperated by divisions
+    afcSouth = []
 
-    afcWest = """
-    Kansas City Chiefs, Denver Broncos, Las Vegas Raiders, San Diego Chargers"""
+    afcWest = []
 
-    afcNorth = """
-    Cleveland Browns, Cincinnati Bengals, Baltimore Ravens, Pittsburgh Steelers"""
+    afcNorth = []
 
-    afcEast = """
-    New England Patriots, Buffalo Bills, Miami Dolphins, New York Jets"""
+    afcEast = []
 
-    nfcWest = """Los Angeles Rams, San Fransisco 49ers, Sacramento Condors, Seatle Seahawks"""
+    nfcWest = []
 
-    nfcSouth = """
-    Atlanta Falcons, Carolina Panthers, New Orleans Saints, Tampa Bay Buccaneers"""
+    nfcSouth = []
 
-    nfcEast = """
-    Dallas Cowboys, New York Giants, Washington Redskins, Philadelphia Eagles"""
+    nfcEast = []
 
-    nfcNorth = """
-    Green Bay Packers, Detroit Lions, Chicago Bears, Minnesota Vikins""" 
+    nfcNorth = []
 
     #A list for all of the Mvps during the franchise 2020 - (Current) 
-    mvpWinners = """
-                    Joe Burrow 2021"""
+    mvpWinners = []
 
     #A list for all of the records set during the franchise 2020 - (Current) 
-    recordsSet ="""
-                   2020 Amari Cooper (WR) - (Colts) - Receiving Yards in a Game ~ 351
-                   2020 Amari Cooper (WR) - (Colts) - Receiving Yards in a Season ~ 2439
-                   2020 Jalen Reagor (WR) - (Condors) - Receiving TDs in a Season ~ 29
-                   2021 Joe Burrow (QB) - (Colts) - Passing Yards in a Game ~ 657  
-                   2021 Joe Burrow (QB) - (Colts) - Passing Touchdowns in a Game ~ 9
-                   2021 T.Y Hilton (WR) - (Colts) - Receiving Yards in a Game ~ 437
-                   2021 T.Y Hilton (WR) - (Colts) - Receiving TDs in a Game ~ 7
-                   2021 Joe Burrow (QB) - (Colts) - Passing Yards in a Season ~ 5601
-                   2021 Joe Burrow (QB) - (Colts) - Passing TDs in a Season ~ 57
-                   2021 Amari Cooper (WR) - (Colts) - Receiving TDs in a Season ~ 29"""
-
+    recordsSet = []
+                 
    #Prints the franchise's information 
     print(f'The NFL Teams in the franchise are: {nflTeams}\n\n')
     print(f'The NFL Teams in the AFC Conference are: {afcConference}\n\n')
